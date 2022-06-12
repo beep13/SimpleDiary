@@ -1,16 +1,19 @@
-# This is a sample Python script.
+menu = """Please select one of the following options:
+1) Add a new entry
+2) View your diary
+3) Exit
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+Please choose 1, 2, or 3: """
+welcome = "welcome! i'm happy to see you :)"
 
+print(welcome)
+user_input = input(menu)
+while user_input != "3":
+    if user_input == "1":
+        print("Adding...")
+    elif user_input == "2":
+        print("Viewing...")
+    else:
+        print("invalid :'( try again")
+    user_input = input(menu)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
