@@ -1,4 +1,4 @@
-from database import add_entry, get_entries
+from database import create_table, add_entry, get_entries
 
 menu = """Please select one of the following options:
 1) Add a new entry
@@ -22,6 +22,7 @@ def view_entries(entries):
 
 
 print(welcome)
+create_table()
 
 user_input = input(menu)
 
