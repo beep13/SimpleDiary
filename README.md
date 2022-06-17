@@ -1,4 +1,4 @@
 # SimpleDiary
 
-Straightforward diary app using python and SQLite
+Straightforward single-user diary app using python and SQLite
 <3 beep
